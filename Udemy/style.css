@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 150px;
+    margin-top: 0px;
+    background-color: rgb(255, 251, 0);
+}
+
+nav {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    background-color: rgb(0, 255, 106);
+}
+
+ul {
+    display: flex;
+    position: absolute;
+}
+
+li {
+    margin-left: 238px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    color: azure;
+    font-size: 20px;
+    font-family: Luminari, fantasy;
+}
+
+#pesquisa {
+    padding: 17px; 
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: aqua;
+    cursor:pointer;
+    color: #007000;
+}
+
+
+section {
+    display: inline-block;
+    position: absolute;
+    background-color: aqua;
+    height: 548px;
+    width: 100%;
+    top: 150px;
+    z-index: 0;
+}
+
+#div1 {
+    background-color: azure;
+    position: absolute;
+    right: 144px;
+    top: 24px;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+#div2 {
+    background-color: azure;
+    position: absolute;
+    left: 0px;
+    top: 24px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 540px;
+    background-color: rgb(0, 255, 106);
+    position: absolute;
+    margin-bottom: 0px;
+    height: 220px;
+    width: 100%;
+}
+
+button :hover {
+    cursor:pointer;
+}
+
+
